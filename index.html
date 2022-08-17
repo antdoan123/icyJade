@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="annoymous"></script>
+    <script src="index.js"></script>
+</head>
+<body>
+    <section id="heading">
+        <nav>
+            <div class="head_container">
+                Shop the new collection here!
+            </div>
+        </nav>
+    </section>
+    <section id="landing">
+        <nav>
+            <div class="nav_container">
+                <img class="logo" src="./assets/image2.png" alt="Home"/>
+                <ul class = "">
+                    <li>
+                        <a href="index.html" class = "nav_links nav_links--primary">Home</a>
+                    </li>
+                    <li>
+                        <a href="shop.html" class = "nav_links">Catalog</a>
+                    </li>
+                    <li>
+                        <a href="#" class = "nav_links">Contact</a>
+                    </li>
+                    <li>
+                        <a href="#" class = "nav_links">About</a>
+                    </li>
+                    <li>
+                        <a href="#" class = "nav_links">Cart(0)</a>
+                    </li>
+                    <li>
+                        <a href="#" class = "nav_links">
+                            <i class="fa fa-user"></i>
+                        </a>
+                    </li>
+                </ul>
+                <buttom class="btn_menu" onclick="openMenu()">
+                    <i class="fa fa-bars"></i>
+                </buttom>
+                <div class="menu_backdrop">
+                    <button class="btn_menu btn_menu--closed" onclick="closeMenu()">
+                        <i class="fas fa-times"></i>
+                    </button>
+                    <ul class ="menu_links">
+                        <li class="menu_list" >
+                            <a href ="index.html" class="menu_link" onclick="closeMenu()">Home</a>
+                        </li>
+                        <li class="menu_list">
+                            <a href ="shop.html" class="menu_link" onclick="closeMenu()">Catalog</a>
+                        </li>
+                        <li class="menu_list">
+                            <a href ="#" class="menu_link" onclick="closeMenu()">About</a>
+                        </li>
+                        <li class="menu_list">
+                            <a href ="#" class="menu_link" onclick="closeMenu()">Cart (0)</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <header>
+            <div class="header_container">
+                <div class="header_description">
+                    <h1 id="landingText">Best Quality Grade A Jade</h1>
+                    <h2 id="landingH2">Find the right <span class="blue">Jade</span> for you</h2>
+                    <a href="shop.html">
+                        <button class="btn">Shop Now</button>
+                    </a>
+                </div>
+            </div>
+        </header>
+    </section>
+
+    <main>
+        <section id="highlights">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section_title">
+                        Why choose <span class="blue">IcyJade?</span>
+                    </h2>
+                    <div class="highlight_wrapper">
+                        <div class ="highlight">
+                            <div class="highlight_img">
+                                <i class="fas fa-bolt"></i>
+                            </div>
+                                <h3 class="highlight_subtitle">
+                                    Fast Shipping
+                                </h3>
+                                <p class="highlights_para">
+                                    Get your Jade delivered to your home within 3-5 days.
+                                </p>
+                        </div>
+                        <div class ="highlight">
+                            <div class="highlight_img">
+                                <i class="fa fa-hand-holding-heart"></i>
+                            </div>
+                                <h3 class="highlight_subtitle">
+                                    Hand Crafted
+                                </h3>
+                                <p class="highlights_para">
+                                    All Jade are hand-crafted to provide the best quality.
+                                </p>
+                        </div>
+                        <div class ="highlight">
+                            <div class="highlight_img">
+                                <i class="fa fa-tags"></i>
+                            </div>
+                                <h3 class="highlight_subtitle">
+                                    Affordable
+                                </h3>
+                                <p class="highlights_para">
+                                    Get your hands on your favorite Jade for as low as $50.
+                                </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="features">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section_title">
+                        Featured <span class="blue">Jade Products</span>
+                    </h2>
+                    <div class="fjades">
+                        <div class="fjade">
+                            <figure class="fjade_img_wrapper">
+                                <img class="fjade_img" src="./assets/IMG_3515.JPG" alt="">
+                            </figure>
+                            <div class="fjade_title">
+                                Blue Water Jade Dragon Pendant
+                            </div>
+                            <div class="fjade_price">
+                                <span class="fjade_price--normal">$200.95</span> $149.95
+                            </div>
+                        </div>   
+                        <div class="fjade">
+                            <figure class="fjade_img_wrapper">
+                                <img class="fjade_img" src="./assets/IMG_3515.JPG" alt="">
+                            </figure>
+                            <div class="fjade_title">
+                                Blue Water Jade Dragon Pendant
+                            </div>
+                            <div class="fjade_price">
+                                <span class="fjade_price--normal">$200.95</span> $149.95
+                            </div>
+                        </div>   
+                        <div class="fjade">
+                            <figure class="fjade_img_wrapper">
+                                <img class="fjade_img" src="./assets/IMG_3515.JPG" alt="">
+                            </figure>
+                            <div class="fjade_title">
+                                Blue Water Jade Dragon Pendant
+                            </div>
+                            <div class="fjade_price">
+                                <span class="fjade_price--normal">$200.95</span> $149.95
+                            </div>
+                        </div>   
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="aboutShop">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section_title">
+                        About <span class="blue">IcyJade</span>
+                    </h2>
+                    <div class="header_container">
+                        <div class="header_description">
+                            <p class="about-para">
+                                Growing up Vietnamese-American, it was always tough trying to maintain your roots and adapting to the new culture. 
+                                One of the ways of maintaining Vietnamese culture includes wearing jade for positive energy. Our passion came from our grandma, as she was
+                                a buddhist monk. She was obessed with Jade and would always give us small buddha Jade pendants that offers good health, wealth, and love.
+                                We believed that Jade is more than just a piece of "jewelry" worn by our customeres. It is a balancing stone that carries a protecting energy 
+                                and has a unique beauty we want to share with others. Here at IcyJade, we pride ourselves on ensuring you quality GRADE A Jade. 
+                            </p>
+                        </div>
+                        <div class="socialIcon">
+                            <i class="fa fa-instagram"></i>
+                            <i class="fa-brand fa-tiktok"></i>                           
+                            <i class="fa fa-facebook-f"></i>
+                            <i class="fa fa-twitter"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="row row_column">
+                <a href ="index.html">
+                    <figure class="footer_logo">
+                        <img src="./assets/image2.png" class="footer_logo--img" alt=""/>
+                    </figure>
+                </a>
+                <div class="footer_list">
+                    <a href = "index.html" class="footer_link">Home</a>
+                    <a href = "#" class="footer_link">About</a>
+                    <a href = "#" class="footer_link">Shop</a>
+                    <a href = "#" class="footer_link">Contact</a>
+                </div>
+                <div class="footer_copyright">
+                    Copyright &copy; 2022 IcyJade
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
